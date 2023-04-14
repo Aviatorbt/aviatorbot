@@ -1,0 +1,180 @@
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para la barra superior */
+  
+  .top-bar {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .buy-now-container {
+    text-align: center;
+  }
+  
+  .buy-now {
+    background-color: #f9ca24;
+    border: none;
+    border-radius: 5px;
+    color: #1a1a1a;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  
+  .buy-now:hover {
+    background-color: #e1b12c;
+  }
+  
+  
+  
+  /* Estilos para el formulario de compra */
+  
+  .purchase-form {
+    text-align: center;
+    background-color: #2c3e50;
+    border: none;
+    border-radius: 10px;
+    margin: 25px auto;
+    max-width: 400px;
+    padding: 25px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+    }
+    
+    .purchase-form h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    }
+    
+    .purchase-form label {
+    display: block;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    }
+    
+    .purchase-form select {
+    display: block;
+    margin-bottom: 40px;
+    width: 100%;
+    background-color: #34495e;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    }
+    
+    .purchase-form input[type="submit"] {
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 5px;
+    color: #2c3e50;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 50px;
+    transition: all 0.2s ease;
+    }
+    
+    .purchase-form input[type="submit"]:hover {
+    background-color: #f39c12;
+    }
+    
+    /* Estilos para los detalles de compra */
+    
+    #detalles {
+    background-color: #34495e;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 50px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
+    }
+    
+    #detalles p {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 24px;
+    }
+    
+    #copiar-telegram, #contactar-telegram {
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 2px;
+    color: #2c3e50;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 10px 25px;
+    transition: all 0.2s ease;
+    }
+    
+    #copiar-telegram:hover, #contactar-telegram:hover {
+    background-color: #f39c12;
+    }
+    /* Estilos para el encabezado */
+  header {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    }
+    
+    h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+    }
+    
+    img {
+    max-width: 70%;
+    margin: 20px auto;
+    display: block;
+    }
+    
+    p {
+    font-size: 20px;
+    margin-bottom: 0;
+    }
+    
+    
+    ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 0;
+    }
+    
+    li {
+    margin-bottom: 10px;
+    }
+    
+    /* Estilos para el pie de página */
+    footer {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    p {
+    font-size: 16px;
+    margin-bottom: 0;
+    }
